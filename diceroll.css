@@ -1,0 +1,18 @@
+h3 {
+	margin-left: 25px;
+}
+
+p {
+	margin-left: 25px;
+}
+
+blockquote {
+	background-color: lightgray;
+	border: 1px solid gray;
+	width: 18%;
+	font-family: monospace;
+}
+
+blockquote p {
+	margin: 10px;
+}
