@@ -1,3 +1,42 @@
+.container {
+	padding: 25px 0 100px 0px;
+	margin: 50px 100px 200px 100px;
+}
+
+.box {
+	border: 3px solid black;
+	width: 200px;
+	height: 250px;
+}
+
+
+.box-title {
+	margin: 0 15px 0 15px;
+}
+
+.left-box {
+	background: steelblue;
+	float: left;
+
+}
+
+.right-box {
+	background: orchid;
+	float: right;
+}
+
+.input-field {
+	width: 25px;
+}
+
+.result {
+	text-indent: 20px;
+}
+
+.noDisplay {
+	display: none;
+}
+
 h3 {
 	margin-left: 25px;
 }

@@ -6,6 +6,36 @@
 </head>
 <body>
 
+<div class="container">
+	<div class="box left-box">
+		<span class="box-title">Input</span>
+		<p>Dice to Roll</p>
+		<p>
+			<label># of Dice:</label>
+			<input name="dice" class="input-field" type="text" placeholder="2">
+		</p>
+		<p>
+			<label># of Sides:</label>
+			<input name="sides" class="input-field" type="text" placeholder="20">
+		</p>
+		<p>
+			<button>Submit</button>
+		</p>
+		<p>
+			<span id="displayDice"></span><span id="d" class="noDisplay">d</span><span id="displaySides"></span>
+		</p>
+	</div>
+	<div class="box right-box">
+		<span class="box-title">Output</span>
+			<p>Dice Sum:</p>
+			<p class="result" id="sumRolls"></p>
+			<p>Individual Dice:</p>
+			<p class="result" id="individDice""></p>
+	</div>
+</div>
+
+
+
 <h1><a href="https://www.reddit.com/r/dailyprogrammer/comments/8s0cy1/20180618_challenge_364_easy_create_a_dice_roller/">Challenge #364: Create a Dice Roller</a></h1>
 <h4><a href="https://www.reddit.com/user/jnazario">posted by u/jnazario</a></h4>
 <h2>Description</h2>
@@ -76,6 +106,8 @@
 
 <h4>Credit</h4>
 <p>This challenge was suggested by user <a href="https://www.reddit.com/user/Fishy_Mc_Fish_Face">/u/Fishy_Mc_Fish_Face</a>, many thanks!</p>
+
+
 <script type="text/javascript" src="diceroll.js"></script>
 </body>
 </html>
