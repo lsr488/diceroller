@@ -17,12 +17,15 @@ var submitButton = document.querySelector("button");
 	// when inputDice changes, grab the value and change displayDice
 	inputDice.addEventListener("input", function() {
 		displayDice.textContent = inputDice.value;
-		theD.classList.remove("noDisplay");
+		displayDice.classList.remove("gray-text");
+		displayDice.classList.add("red-text");
 	});
 
 	// when inputSides changes, grab the value and change displaySides
 	inputSides.addEventListener("input", function() {
 		displaySides.textContent = inputSides.value;
+		displaySides.classList.remove("gray-text");
+		displaySides.classList.add("red-text");
 	});
 
 	// user decides how many dice of which type
