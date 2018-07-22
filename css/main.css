@@ -1,1 +1,61 @@
+.divide {
+	margin: 1em;
+}
 
+.box {
+	border: 3px solid black;
+	width: 200px;
+	height: 250px;
+	display: inline-grid;
+}
+
+
+.box-title {
+	margin: 0 15px 0 15px;
+}
+
+.left-box {
+	background: steelblue;
+	margin: auto; 
+}
+
+.right-box {
+	background: orchid;
+	margin: auto;
+}
+
+.input-field {
+	width: 25%;
+}
+
+.result {
+	margin: 1em;
+	/*text-indent: 20px;*/
+}
+
+.gray-text {
+	color: gray;
+}
+
+.red-text {
+	color: red;
+}
+
+h3 {
+	margin-left: 25px;
+}
+
+.indent {
+	margin-left: 25px;
+}
+
+blockquote {
+	background-color: lightgray;
+	border: 1px solid gray;
+	width: 18%;
+	font-family: monospace;
+}
+
+blockquote p {
+	margin: 10px;
+}
