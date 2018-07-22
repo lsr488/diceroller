@@ -1,5 +1,5 @@
 # To see the dice roller excerise
-visit [https://lsr488.github.io/diceroller/](this link)
+visit https://lsr488.github.io/diceroller/
 
 ## Welcome to GitHub Pages
 
